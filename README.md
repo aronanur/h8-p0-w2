@@ -4,7 +4,7 @@ Repositori ini dibuat untuk menyimpan tugas pada fase 0 di week 2 Hacktiv8
 
 # Siapa Saya ?
 
-Nama : Arona Nur Tetulis ---enter
-TTL  : Banjarnegara, 15 Juni 1996 ---enter
-email: arona.nur.tetulis@gmail.com ---enter
-WA   : 089603799816 ---enter
+Nama : Arona Nur Tetulis <br>
+TTL  : Banjarnegara, 15 Juni 1996 <br>
+email: arona.nur.tetulis@gmail.com <br>
+WA   : 089603799816 <br>
