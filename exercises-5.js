@@ -7,7 +7,9 @@ var fifth = 'I';
 var sixth = 'love';
 var seventh = 'it!';
 
+console.log('Soal Nomor 1')
 console.log(word + ' ' + second + ' ' + third + ' ' + fourth + ' ' + fifth + ' ' + sixth + ' ' + seventh);
+console.log('\n')
 
 //Soal Nomor 2
 var word = 'wow JavaScript is so cool';
@@ -17,12 +19,13 @@ var thirdWord = word[15] + word[16];
 var fourthWord = word[18] + word[19]; 
 var fifthWord = word[21] + word[22] + word[23] + word[24]; 
 
-
+console.log('Soal Nomor 2')
 console.log('First Word: ' + exampleFirstWord);
 console.log('Second Word: ' + secondWord);
 console.log('Third Word: ' + thirdWord);
 console.log('Fourth Word: ' + fourthWord);
 console.log('Fifth Word: ' + fifthWord);
+console.log('\n')
 
 //Soal Nomor 3
 var word3 = 'wow JavaScript is so cool';
@@ -32,11 +35,13 @@ var thirdWord3 = word.substring(15, 17);
 var fourthWord3= word.substring(18, 20); 
 var fifthWord3= word.substring(21, 25); 
 
+console.log('Soal Nomor 3')
 console.log('First Words: ' + exampleFirstWord);
 console.log('Second Words: ' + secondWord);
 console.log('Third Words: ' + thirdWord);
 console.log('Fourth Words: ' + fourthWord);
 console.log('Fifth Words: ' + fifthWord);
+console.log('\n')
 
 //Soal Nomor 4
 var word4 = 'wow JavaScript is so cool';
@@ -52,6 +57,7 @@ var thirdWordLength = thirdWord4.length;
 var fourthWordLength = fourthWord4.length;
 var fifthWordLength = fifthWord4.length;
 
+console.log('Soal Nomor 4')
 console.log('First Word: ' + exampleFirstWord + ', with length: ' + firstWordLength);
 console.log('Second Word: ' + secondWord + ', with length: ' + secondWordLength);
 console.log('Third Word: ' + thirdWord + ', with length: ' + thirdWordLength);
