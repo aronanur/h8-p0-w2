@@ -46,11 +46,11 @@ ENDWHILE
 
 SET iterasi WITH VALUE 1
 SET jumlahsiswa WITH VALUE 40
-SET siswa WITH VALUE 'Kuku Panjang'
+SET siswa WITH VALUE TRUE //TRUE sama dengan Kuku panjang
 
 WHILE iterasi <= jumlahsiswa
 
-    IF siswa === 'Kuku Panjang' THEN
+    IF siswa === TRUE THEN
         DISPLAY 'MENDAPAT HUKUMAN DARI GURU'
     ELSE
         DISPLAY 'MENDAPAT PUJIAN DARI GURU'
