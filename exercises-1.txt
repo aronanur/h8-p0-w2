@@ -35,7 +35,7 @@ WHILE pakaian <= batas
     IF pakaian === batas THEN
         DISPLAY "MESIN CUCI DINYALAKAN"
     ELSE
-        DISPLAY "JUMLAH PAKAIAN BELUM SAMPAI 20"
+        DISPLAY pakaian //untuk menampilkan jumlah pakaian
     ENDIF
 
     pakaian INCREMENT
