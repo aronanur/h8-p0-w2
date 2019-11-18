@@ -1,4 +1,4 @@
-1. Pseudocode Soal 1
+1. Newton Second Law
 
 SET massa WITH VALUE 600
 SET percepatan WITH VALUE 2
