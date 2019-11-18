@@ -46,11 +46,11 @@ ENDWHILE
 
 SET iterasi WITH VALUE 0
 SET jumlahsiswa WITH VALUE 40
-SET siswa WITH VALUE [1,0,1,0,1,0,1,1,1, n... ,0] //Data dummy untuk 1 itu kuku panjang lalu untuk 0 itu kuku tidak panjang
+SET data_siswa WITH VALUE [1,0,1,0,1,0,1,1,1, n... ,0] //Data dummy untuk 1 itu kuku panjang lalu untuk 0 itu kuku tidak panjang
 
 WHILE iterasi < jumlahsiswa
 
-    IF siswa[iterasi] === 1 THEN
+    IF data_siswa[iterasi] === 1 THEN
         DISPLAY 'KUKU PANJANG MAKA MENDAPAT HUKUMAN DARI GURU'
     ELSE
         DISPLAY 'KUKU TIDAK PANJANG MAKA MENDAPAT PUJIAN DARI GURU'
