@@ -44,16 +44,16 @@ ENDWHILE
 
 4. PERIKSA KUKU
 
-SET iterasi WITH VALUE 1
+SET iterasi WITH VALUE 0
 SET jumlahsiswa WITH VALUE 40
-SET siswa WITH VALUE TRUE //TRUE sama dengan Kuku panjang
+SET siswa WITH VALUE [1,0,1,0,1,0,1,1,1, n... ,0] //Data dummy untuk 1 itu kuku panjang lalu untuk 0 itu kuku tidak panjang
 
-WHILE iterasi <= jumlahsiswa
+WHILE iterasi < jumlahsiswa
 
-    IF siswa === TRUE THEN
-        DISPLAY 'MENDAPAT HUKUMAN DARI GURU'
+    IF siswa[iterasi] === 1 THEN
+        DISPLAY 'KUKU PANJANG MAKA MENDAPAT HUKUMAN DARI GURU'
     ELSE
-        DISPLAY 'MENDAPAT PUJIAN DARI GURU'
+        DISPLAY 'KUKU TIDAK PANJANG MAKA MENDAPAT PUJIAN DARI GURU'
     ENDIF
     
     iterasi INCREMENT
