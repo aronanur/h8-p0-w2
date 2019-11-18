@@ -33,11 +33,6 @@ ELSE
     DISPLAY "JUMLAH PAKAIAN BELUM SAMPAI 20"
 ENDIF
 
-Seorang guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang dengan cara berkeliling kelas. 
-Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut, 
-jika tidak guru akan memuji siswa/siswi tersebut.
-
-Buatlah algoritma & pseudocode untuk permasalahan diatas.
 
 SET iterasi WITH VALUE 1
 SET jumlahsiswa WITH VALUE 40
@@ -52,5 +47,5 @@ WHILE iterasi <= jumlahsiswa
     ENDIF
     
     iterasi INCREMENT
-    
+
 ENDWHILE
