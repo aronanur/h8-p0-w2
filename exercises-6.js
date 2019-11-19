@@ -58,8 +58,6 @@ console.log('Soal Angka Kelipatan 3')
 for(i = 1; i <= 100;i += 2){
     if(i % 3 === 0){
         console.log(i + ' merupakan angka Kelipatan 3')
-    }else{
-        console.log('')
     }
 }
 
@@ -69,8 +67,6 @@ console.log('Soal Angka Kelipatan 6')
 for(i = 1; i <= 100;i += 5){
     if(i % 6 === 0){
         console.log(i + ' merupakan angka Kelipatan 6')
-    }else{
-        console.log('')
     }
 }
 
@@ -80,7 +76,5 @@ console.log('Soal Angka Kelipatan 10')
 for(i = 1; i <= 100;i += 9){
     if(i % 10 === 0){
         console.log(i + ' merupakan angka Kelipatan 10')
-    }else{
-        console.log('')
     }
 }
