@@ -1,14 +1,19 @@
-let nama ='Arona Nur Tetulis'
-let peran ='Tabib'
+var nama ='Arona Nur Tetulis'
+var peran ='Tabib'
+var welcome = 'Selamat datang di dunia Proxytia'
 
-if(nama === '' && peran === ''){
-    console.log('Nama harus diisi!')
-}else if(nama !== '' && peran === ''){
-    console.log('Hello '+ nama + ', Pilih peranmu untuk memulai game!')
-}else if(nama !== '' && peran === 'Ksatria'){
-    console.log('Selamat datang di dunia Proxytia,' + nama + '\nHallo Ksatria '+ nama + ', kamu dapat menyerang dengan senjatamu')
-}else if(nama !== '' && peran === 'Tabib'){
-    console.log('Selamat datang di dunia Proxytia,' + nama + '\nHallo Tabib '+ nama + ', kamu akan membantu temanmu yang terluka.')
-}else if(nama !== '' && peran === 'Penyihir'){
-    console.log('Selamat datang di dunia Proxytia,' + nama + '\nHallo Penyihir '+ nama + ', ciptakan keajaiban yang membantu kemenanganmu!.')    
+if(nama !== ''){
+    if(peran === ''){
+        console.log(`Hello ${nama}, Pilih peranmu untuk memulai game!`)
+    }else if(peran === 'Ksatria'){
+        console.log(`${welcome}, ${nama} \nHallo ${peran} ${nama}, kamu dapat menyerang dengan senjatamu`)
+    }else if(peran === 'Tabib'){
+        console.log(`${welcome}, ${nama} \nHallo ${peran} ${nama}, kamu akan membantu temanmu yang terluka`)        
+    }else if(peran === 'Penyihir'){
+        console.log(`${welcome}, ${nama} \nHallo ${peran} ${nama}, ciptakan keajaiban yang membantu kemenanganmu!`)        
+    }else{
+        console.log(`Upss !! peran ${peran} tidak tersedia. Pilihan peran hanya ada Ksatria, Tabib, dan Penyihir`)
+    }
+}else{
+    console.log('Nama harus diisi')
 }
