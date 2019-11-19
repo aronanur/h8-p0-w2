@@ -1,6 +1,6 @@
-var hari = 21;
-var bulan = 1;
-var tahun = 1945;
+var hari = 15;
+var bulan = 6;
+var tahun = 1996;
 
 switch (bulan) {
     case 1:
@@ -40,5 +40,6 @@ switch (bulan) {
         console.log(hari  + ' Desember ' + tahun)
         break;
     default:
+        console.log('Silahkan assign bulan antara 1 - 12')
         break;
 }
